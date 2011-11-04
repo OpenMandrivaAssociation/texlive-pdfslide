@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/pdfslide
+# catalog-date 2006-12-05 23:27:16 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-pdfslide
 Version:	20061205
 Release:	1
@@ -56,6 +62,7 @@ facilities of the PPower4 post-processor.
 %doc %{_texmfdistdir}/doc/latex/pdfslide/manual.tex
 %doc %{_texmfdistdir}/doc/latex/pdfslide/meta.mp
 %doc %{_texmfdistdir}/doc/latex/pdfslide/mpgraph.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ facilities of the PPower4 post-processor.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
