@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-pdfslide
 Version:	20061205
-Release:	8
+Release:	9
 Summary:	Presentation slides using pdftex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfslide
