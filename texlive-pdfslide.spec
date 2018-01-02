@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/pdfslide
-# catalog-date 2006-12-05 23:27:16 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-pdfslide
 Version:	20170414
 Release:	1
@@ -40,19 +34,8 @@ facilities of the PPower4 post-processor.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/pdfslide/bg.jpg
-%{_texmfdistdir}/tex/latex/pdfslide/d12.jpg
-%{_texmfdistdir}/tex/latex/pdfslide/metablue.pdf
-%{_texmfdistdir}/tex/latex/pdfslide/metagray.pdf
-%{_texmfdistdir}/tex/latex/pdfslide/metagreen.pdf
-%{_texmfdistdir}/tex/latex/pdfslide/metalgray.pdf
-%{_texmfdistdir}/tex/latex/pdfslide/pdfslide.cfg
-%{_texmfdistdir}/tex/latex/pdfslide/pdfslide.sty
-%{_texmfdistdir}/tex/latex/pdfslide/slide.clo
-%doc %{_texmfdistdir}/doc/latex/pdfslide/demo.pdf
-%doc %{_texmfdistdir}/doc/latex/pdfslide/manual.tex
-%doc %{_texmfdistdir}/doc/latex/pdfslide/meta.mp
-%doc %{_texmfdistdir}/doc/latex/pdfslide/mpgraph.pdf
+%{_texmfdistdir}/tex/latex/pdfslide
+%doc %{_texmfdistdir}/doc/latex/pdfslide
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,17 +46,3 @@ facilities of the PPower4 post-processor.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061205-2
-+ Revision: 754765
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061205-1
-+ Revision: 719223
-- texlive-pdfslide
-- texlive-pdfslide
-- texlive-pdfslide
-- texlive-pdfslide
-
