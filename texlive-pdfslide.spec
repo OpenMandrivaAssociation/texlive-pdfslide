@@ -1,6 +1,6 @@
 Name:		texlive-pdfslide
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Presentation slides using pdftex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfslide
