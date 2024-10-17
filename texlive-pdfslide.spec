@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Presentation slides using pdftex
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfslide
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdfslide
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfslide.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfslide.doc.r%{version}.tar.xz
